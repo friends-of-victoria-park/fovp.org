@@ -1,6 +1,6 @@
 /* ./pages/index.js               */
 import Head from 'next/head';
-import Image from 'next/image';
+
 import {ContactForm} from '../../components/ContactForm';
 import BackgroundImage from '../../public/FOVP_UPSCALE.png';
 

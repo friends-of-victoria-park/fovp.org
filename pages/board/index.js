@@ -1,6 +1,6 @@
 /* ./pages/index.js               */
 import Head from 'next/head';
-import Image from 'next/image';
+
 import {PeopleCard} from '../../components/PeopleCard';
 import BackgroundImage from '../../public/FOVP_UPSCALE.png';
 

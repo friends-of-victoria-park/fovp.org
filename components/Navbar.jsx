@@ -1,6 +1,6 @@
 /*  ./components/Navbar.jsx     */
 import Link from 'next/link';
-import Image from 'next/image';
+
 import { useState } from 'react';
 
 export const Navbar = () => {
@@ -15,7 +15,7 @@ export const Navbar = () => {
 			<nav className='flex items-center sticky top-0 z-50 flex-wrap bg-blue-400 p-3 '>
 				<Link href='/'>
 					<a className='inline-flex items-center p-2 mr-4 '>
-					<Image src="/FOVP_UPSCALE.png" width='70' height='70' />
+					<img src="/FOVP_UPSCALE.png" width='70' height='70' />
 						<span className='md:text-xl text-sm text-white font-bold uppercase tracking-wide'>
 							Friends of Victoria Park
 						</span>
