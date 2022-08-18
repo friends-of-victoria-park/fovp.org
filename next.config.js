@@ -2,5 +2,5 @@
 const isProd = process.env.NODE_ENV === 'production'
 
 module.exports = {
-  assetPrefix: isProd ? '/test.fovp.org/' : ''
+  assetPrefix: isProd ? '/Friends-of-Victoria-Park.github.io/' : ''
 }
