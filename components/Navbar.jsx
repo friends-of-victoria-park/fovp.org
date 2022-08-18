@@ -16,7 +16,7 @@ export const Navbar = () => {
 				<Link href='/'>
 					<a className='inline-flex items-center p-2 mr-4 '>
 					<img src="/FOVP_UPSCALE.png" width='70' height='70' />
-						<span className='md:text-xl text-sm text-white font-bold uppercase tracking-wide'>
+						<span className='md:text-xl text-sm text-white font-dancing-script font-bold tracking-wide'>
 							Friends of Victoria Park
 						</span>
 					</a>
@@ -62,14 +62,14 @@ export const Navbar = () => {
 								Lantern Festival
 							</a>
 						</Link>
-						<Link href='/board'>
+						<Link href='/volunteer'>
 							<a className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-blue-600 hover:text-white'>
-								Board
+								Volunteer
 							</a>
 						</Link>
 						<Link href='/about'>
 							<a className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-blue-600 hover:text-white'>
-								About us
+								About
 							</a>
 						</Link>
 						<Link href='/contact'>

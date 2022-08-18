@@ -1,7 +1,5 @@
-/*  ./components/Navbar.jsx     */
 import Link from 'next/link';
-
-import { useState } from 'react';
+import {useState} from 'react';
 
 export const Footer = () => {
 	const [active, setActive] = useState(false);
