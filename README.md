@@ -1,1 +1,2 @@
-This is a starter template for [Learn Next.js](https://nextjs.org/learn).
+# FOVP Website
+- Main website for Friends of Victoria Park
