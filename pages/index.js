@@ -1,209 +1,37 @@
-import Head from 'next/head'
+/* ./pages/index.js               */
+import Head from 'next/head';
+import Image from 'next/image';
+import {InfoSlide} from '../components/InfoSlide';
+import {BlogPost} from '../components/BlogPost';
+import BackgroundImage from '../public/FOVP_UPSCALE.png';
 
 export default function Home() {
   return (
-    <div className="container">
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
-      <main>
-        <h1 className="title">
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
-
-        <p className="description">
-          Get started by editing <code>pages/index.js</code>
-        </p>
-
-        <div className="grid">
-          <a href="https://nextjs.org/docs" className="card">
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className="card">
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className="card"
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className="card"
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
+    <div>
+        <Head>
+            <title>Friends of Victoria Park</title>
+            <link rel='icon' href='/favicon.ico' />
+        </Head>
+        <div class="relative w-full h-[40rem]">
+            <div class="w-full h-full bg-[url('/VP_BACK_1.jpg')] bg-cover bg-center " />
+            <div
+                class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex flex-col justify-center items-center">
+                <h1 class="mt-5 text-center text-5xl text-white font-semibold drop-shadow-lg">
+                    Welcome to the
+                </h1>
+                <h1 class="mt-5 text-center text-5xl text-white font-semibold drop-shadow-lg">
+                    Friends of Victora Park
+                </h1>
+            </div>
         </div>
-      </main>
-
-      <footer>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel" className="logo" />
-        </a>
-      </footer>
-
-      <style jsx>{`
-        .container {
-          min-height: 100vh;
-          padding: 0 0.5rem;
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-        }
-
-        main {
-          padding: 5rem 0;
-          flex: 1;
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-        }
-
-        footer {
-          width: 100%;
-          height: 100px;
-          border-top: 1px solid #eaeaea;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-        }
-
-        footer img {
-          margin-left: 0.5rem;
-        }
-
-        footer a {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-        }
-
-        a {
-          color: inherit;
-          text-decoration: none;
-        }
-
-        .title a {
-          color: #0070f3;
-          text-decoration: none;
-        }
-
-        .title a:hover,
-        .title a:focus,
-        .title a:active {
-          text-decoration: underline;
-        }
-
-        .title {
-          margin: 0;
-          line-height: 1.15;
-          font-size: 4rem;
-        }
-
-        .title,
-        .description {
-          text-align: center;
-        }
-
-        .description {
-          line-height: 1.5;
-          font-size: 1.5rem;
-        }
-
-        code {
-          background: #fafafa;
-          border-radius: 5px;
-          padding: 0.75rem;
-          font-size: 1.1rem;
-          font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
-            DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
-        }
-
-        .grid {
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          flex-wrap: wrap;
-
-          max-width: 800px;
-          margin-top: 3rem;
-        }
-
-        .card {
-          margin: 1rem;
-          flex-basis: 45%;
-          padding: 1.5rem;
-          text-align: left;
-          color: inherit;
-          text-decoration: none;
-          border: 1px solid #eaeaea;
-          border-radius: 10px;
-          transition: color 0.15s ease, border-color 0.15s ease;
-        }
-
-        .card:hover,
-        .card:focus,
-        .card:active {
-          color: #0070f3;
-          border-color: #0070f3;
-        }
-
-        .card h3 {
-          margin: 0 0 1rem 0;
-          font-size: 1.5rem;
-        }
-
-        .card p {
-          margin: 0;
-          font-size: 1.25rem;
-          line-height: 1.5;
-        }
-
-        .logo {
-          height: 1em;
-        }
-
-        @media (max-width: 600px) {
-          .grid {
-            width: 100%;
-            flex-direction: column;
-          }
-        }
-      `}</style>
-
-      <style jsx global>{`
-        html,
-        body {
-          padding: 0;
-          margin: 0;
-          font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
-            Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
-            sans-serif;
-        }
-
-        * {
-          box-sizing: border-box;
-        }
-      `}</style>
+        <div class="relative w-full min-h-[40rem] bg-blue-100 grid grid-cols-1 gap-4 content-center place-items-center">
+            <div class="px-6 py-6">
+                <BlogPost subject="Welcome to the little park with the big hill" body="Victoria Park is located in the West End of St. John's, Newfoundland Labrador. The bottom edge of the park starts on Water Street and runs up the steep green shaded hill all the way to Hamilton Avenue. Sudbury Street flanks the park on its west side and the back gardens of the houses on Alexander Street line the parks eastern border."/>
+                <BlogPost subject="Natural Amphitheatre" body="The upper portions of the park has a beautiful steep topography with mature large trees and a wide open slope that forms a natural amphitheatre above the baseball diamond in the summer and the perfect snowboarding and sledding hill in the winter. The lower portion of the park contains a few meandering paths around flower beds and small and large trees. It sets the perfect setting for a family picnic and leads up to the children's playground and the Pool House." />
+                <BlogPost subject="The Pool House without a pool" body="The Pool House no longer services a pool, and now instead serves as the summer headquarters for the Friends of Victoria Park, the Lantern Festival organizing committee, the free summer day camp program, lantern-making workshops and other activities. The Friends of Victoria Park often shares the Pool House to support the activities of other community-oriented and art initiatives as a workshop space and practice area." />
+                <BlogPost subject="Home of the Victoria Park Lantern Festival" body="Annually on the Saturday of the last full weekend in July, the Lantern Festival lights up the west end of the City of Legends with a full day of events, a lantern installation, a lantern procession and a fire show and performance." />
+            </div>
+        </div>
     </div>
-  )
+  );
 }
