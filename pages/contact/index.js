@@ -14,7 +14,7 @@ export default function Contact() {
 					Contact Us
 				</div>
 				<div className="grid grid-cols-1 gap-4 content-center place-items-center pt-6 px-4">
-					<div className="block p-6 max-w-4xl bg-white rounded-lg border border-gray-200 shadow-md">
+					<div className="block p-6 max-w-4xl md:w-[30rem] bg-white rounded-lg border border-gray-200 shadow-md">
 						<ContactForm />
 					</div>
 				</div>
