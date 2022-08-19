@@ -9,11 +9,11 @@ export default function About() {
 				<title>About - Friends of Victoria Park</title>
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
-			<div className="relative w-full h-screen min-h-[90rem] bg-[url('/VP_BOARD_BACK.jpg')] bg-cover bg-center">
+			<div className="relative w-full bg-[url('/VP_BOARD_BACK.jpg')] bg-cover bg-center">
 				<div className="py-8 text-center text-4xl text-white font-bold">
 					About us
 				</div>
-				<div className="grid grid-cols-1 gap-4 content-center place-items-center pt-6">
+				<div className="px-4 grid grid-cols-1 gap-4 content-center place-items-center py-6">
 					<div className="block p-6 max-w-4xl bg-white rounded-lg border border-gray-200 shadow-md">
 						<h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">Formed in 1998</h5>
 						<div className="font-normal text-gray-700 drop-shadow-lg"> 
@@ -36,6 +36,25 @@ export default function About() {
 						<h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">Our Mission</h5>
 						<div className="font-normal text-gray-700 drop-shadow-lg"> 
 							To take a lead role in ensuring that Victoria Park retains its historic place as a vibrant, safe and enjoyable environment for use by the neighbourhood and City residents.
+						</div>
+					</div>
+				</div>
+			</div>
+			<div className="relative w-full bg-blue-100 grid grid-cols-1 gap-4 content-center place-items-center">
+				<div className="py-8 text-center text-4xl text-black font-bold">
+					Meet our Board of Directors    
+				</div>
+				<div className="grid grid-cols-1 gap-4 content-center place-items-center">
+					<PeopleCard name='Mike Evoy' position='Chair'/>
+					<PeopleCard name='Jeremy Earle' position='Lantern Festival Lead'/>
+					<PeopleCard name='Ramona Cole' position='Director'/>
+					<PeopleCard name='Lori Lynn Earle' position='Director'/>
+				</div>
+				<div className="grid grid-cols-1 gap-4 content-center place-items-center py-6 px-4">
+					<div className="block p-6 max-w-4xl bg-white rounded-lg border border-gray-200 shadow-md">
+						<h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">Get Involved</h5>
+						<div className="font-normal text-gray-700 drop-shadow-lg"> 
+							If you are interested in becoming apart of our wonderful organization send an email to contact@fovp.org
 						</div>
 					</div>
 				</div>

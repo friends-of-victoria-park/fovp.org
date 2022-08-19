@@ -49,8 +49,13 @@ export default function Daycamp() {
 								<li><b><u>Program Capacity:</u></b> Please be advised that the maximum program capacity for 2019 is 75 children. However the FOVP reserves the right to lower the number of registrations based on staffing numbers.</li>
 								<li>‎</li>
 								<li>Also be advised that zonal priority will be in affect.</li>
-								<li>‎</li>
-								<li><b>ZONES are as follows:</b></li>
+							</ul>
+						</a>
+					</div>
+					<div className="pt-5">
+						<a className="block p-6 max-w-4xl bg-white rounded-lg border border-gray-200 shadow-md">
+							<h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">Zones</h5>
+							<ul className="font-normal text-gray-700 drop-shadow-lg"> 
 								<li><b>Zone 1</b> is the immediate area of Victoria Park determined by a 2 kilometer radius of Angel Place Victoria Park</li>
 								<li><b>Zone 2</b> is the immediate area of Victoria Park determined by a 2.0001 to 4 kilometer radius of Angel Place Victoria Park</li>
 								<li><b>Zone 3</b> is the immediate area of Victoria Park determined by a 4.0001 to 8 kilometer radius of Angel Place Victoria Park</li>

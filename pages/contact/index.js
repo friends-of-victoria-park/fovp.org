@@ -9,11 +9,11 @@ export default function Contact() {
 				<title>Contact - Friends of Victoria Park</title>
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
-			<div className="relative w-full h-screen min-h-[40rem] bg-[url('/VP_BOARD_BACK.jpg')] bg-cover bg-center">
+			<div className="relative w-full min-h-screen  bg-[url('/VP_BOARD_BACK.jpg')] bg-cover bg-center">
 				<div className="py-8 text-center text-4xl text-white font-bold">
 					Contact Us
 				</div>
-				<div className="grid grid-cols-1 gap-4 content-center place-items-center pt-6 px-4">
+				<div className="grid grid-cols-1 gap-4 content-center place-items-center py-6 px-4">
 					<div className="block p-6 max-w-4xl md:w-[30rem] bg-white rounded-lg border border-gray-200 shadow-md">
 						<ContactForm />
 					</div>

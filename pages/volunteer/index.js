@@ -22,23 +22,7 @@ export default function Volunteer() {
 				</div>
 			</div>
 			<div className="relative w-full bg-blue-100 grid grid-cols-1 gap-4 content-center place-items-center">
-				<div className="py-8 text-center text-4xl text-black font-bold">
-					Meet our Board of Directors    
-				</div>
-				<div className="grid grid-cols-1 gap-4 content-center place-items-center">
-					<PeopleCard name='Mike Evoy' position='Chair'/>
-					<PeopleCard name='Jeremy Earle' position='Lantern Festival Lead'/>
-					<PeopleCard name='Ramona Cole' position='Director'/>
-					<PeopleCard name='Lori Lynn Earle' position='Director'/>
-				</div>
-				<div className="grid grid-cols-1 gap-4 content-center place-items-center py-6 px-4">
-					<div className="block p-6 max-w-4xl bg-white rounded-lg border border-gray-200 shadow-md">
-						<h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">Get Involved</h5>
-						<div className="font-normal text-gray-700 drop-shadow-lg"> 
-							If you are interested in becoming apart of our wonderful organization send an email to contact@fovp.org
-						</div>
-					</div>
-				</div>
+				<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdzfrQZY418QtGVI-c0w7XdKOyZleY0DHbsxcINgS19L2TviA/viewform?embedded=true" width="85%" height="3592" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 			</div>
 		</div>
 	);
