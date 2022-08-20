@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import {InfoCard} from '../../components/InfoCard';
 import BackgroundImage from '../../public/FOVP_UPSCALE.png';
 
 export default function Daycamp() {
@@ -24,19 +25,19 @@ export default function Daycamp() {
 				</div>
 			</div>
 			<div className="relative w-full min-h-[40rem] bg-blue-100 grid grid-cols-1 gap-4 content-center place-items-center">
-				<div className="px-6 py-6">
-					<a className="block p-6 max-w-4xl bg-white rounded-lg border border-gray-200 shadow-md">
-						<h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">The Program</h5>
-						<ul className="font-normal text-gray-700 drop-shadow-lg"> 
-							<li><b>When:</b> July 2021 to August 2021</li>
-							<li><b>Time:</b> 9:00am to 4:00pm; Monday to Friday</li>
-							<li><b>Registration Fees:</b> TBD for a single child. TBD for 2. Additional children from the same family please add an extra TBD per child. (please note fees are reviewed every two years, the next scheduled review is Summer 2020)</li>
-							<li><b>Ages:</b> 5-12</li>
-						</ul>
-					</a>
-					<div className="pt-5">
-						<a className="block p-6 max-w-4xl bg-white rounded-lg border border-gray-200 shadow-md">
-							<h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">How to Register</h5>
+				<div className="px-4 grid grid-cols-1 gap-4 content-center place-items-center py-6">
+					<InfoCard subject="The Program" 
+						body={
+							<ul className="font-normal text-gray-700"> 
+								<li><b>When:</b> July 2021 to August 2021</li>
+								<li><b>Time:</b> 9:00am to 4:00pm; Monday to Friday</li>
+								<li><b>Registration Fees:</b> TBD for a single child. TBD for 2. Additional children from the same family please add an extra TBD per child. (please note fees are reviewed every two years, the next scheduled review is Summer 2020)</li>
+								<li><b>Ages:</b> 5-12</li>
+							</ul>
+						} 
+					/>
+					<InfoCard subject="How to Register" 
+						body={
 							<ul className="font-normal text-gray-700 drop-shadow-lg"> 
 								<li><b>Download</b> the FOVP Summer Program Registration Form and the Participant Agreement Form</li>
 								<li><b>Fill out the form:</b> The form is a fillable pdf, so you can fill it out electronically and then print it out. Alternatively, print it out and fill it out by hand.</li>
@@ -50,11 +51,10 @@ export default function Daycamp() {
 								<li>‎</li>
 								<li>Also be advised that zonal priority will be in affect.</li>
 							</ul>
-						</a>
-					</div>
-					<div className="pt-5">
-						<a className="block p-6 max-w-4xl bg-white rounded-lg border border-gray-200 shadow-md">
-							<h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">Zones</h5>
+						} 
+					/>
+					<InfoCard subject="Zones" 
+						body={
 							<ul className="font-normal text-gray-700 drop-shadow-lg"> 
 								<li><b>Zone 1</b> is the immediate area of Victoria Park determined by a 2 kilometer radius of Angel Place Victoria Park</li>
 								<li><b>Zone 2</b> is the immediate area of Victoria Park determined by a 2.0001 to 4 kilometer radius of Angel Place Victoria Park</li>
@@ -63,8 +63,8 @@ export default function Daycamp() {
 								<li><b>Zone 5</b> is any area larger than 12.0001 kilometers from Angel Place Victoria Park</li>
 								<li><b>Zone 6</b> is any area outside of St. John's.</li>
 							</ul>
-						</a>
-					</div>
+						} 
+					/>
 				</div>
 			</div>
 		</div>

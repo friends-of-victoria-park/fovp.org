@@ -11,8 +11,7 @@ export default function Volunteer() {
 			</Head>
 			<div className="relative w-full h-[40rem]">
 				<div className="w-full h-full bg-[url('/VP_BOARD_BACK.jpg')] bg-cover bg-center " />
-				<div
-					className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex flex-col justify-center items-center">
+				<div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex flex-col justify-center items-center">
 					<h1 className="mt-5 text-center text-4xl text-white font-semibold drop-shadow-lg">
 						Come volunteer with us!
 					</h1>

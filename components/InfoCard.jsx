@@ -1,8 +1,7 @@
-export function BlogPost(props) {
+export function InfoCard(props) {
 	return (
 		<>
-			<div className="pt-4">
-				<div className="block p-6 2xl:w-[70rem] xl:w-[60rem] lg:w-[50rem] md:w-[40rem] w-[20rem] bg-white rounded-lg border border-gray-200 shadow-md">
+				<div className="block p-6 max-w-4xl w-full bg-white rounded-lg border border-gray-200 shadow-md">
 					<h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">{props.subject}</h5>
 					<div className="font-normal text-gray-700 drop-shadow-lg">
 						{props.body}
@@ -11,7 +10,6 @@ export function BlogPost(props) {
 						2020/08/17
 					</div> */}
 				</div>
-			</div>
 		</>
 	);
 };
