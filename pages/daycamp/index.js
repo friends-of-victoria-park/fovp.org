@@ -9,7 +9,7 @@ export default function Daycamp() {
 				<title>Day Camp - Friends of Victoria Park</title>
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
-			<div className="relative w-full md:h-[40rem]">
+			<div className="relative w-full h-[50rem]">
 				<div className="w-full h-full bg-[url('/VP_DAYCAMP_BACK.jpg')] bg-cover bg-center " />
 				<div
 					className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex flex-col justify-center items-center">
