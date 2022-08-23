@@ -9,7 +9,7 @@ export default function Daycamp() {
 				<title>Day Camp - Friends of Victoria Park</title>
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
-			<div className="relative w-full h-[40rem]">
+			<div className="relative w-full md:h-[40rem]">
 				<div className="w-full h-full bg-[url('/VP_DAYCAMP_BACK.jpg')] bg-cover bg-center " />
 				<div
 					className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex flex-col justify-center items-center">
@@ -19,7 +19,7 @@ export default function Daycamp() {
 					<h1 className="mt-2 text-center text-4xl text-white font-semibold drop-shadow-lg">
 						Summer Day Camp Program
 					</h1>
-					<div className="mt-5 text-center text-1xl text-white drop-shadow-lg block p-6 max-w-4xl rounded-lg border shadow-md bg-gray-800 border-gray-700"> 
+					<div className="mt-5 pb-4 text-center text-1xl text-white drop-shadow-lg block p-6 max-w-4xl rounded-lg border shadow-md bg-gray-800 border-gray-700"> 
 						The FOVP summer day camp is an 8 week program which provides children ages 5-12 with an opportunity to participate in many fun activities such as field trips, arts and crafts, recreation and many other fun activities.
 					</div>
 				</div>
