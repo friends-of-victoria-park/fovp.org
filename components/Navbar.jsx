@@ -2,6 +2,7 @@
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { useState } from 'react';
+import { motion } from 'framer-motion';
 
 export const Navbar = () => {
 	const router = useRouter();
@@ -22,58 +23,68 @@ export const Navbar = () => {
 						</span>
 					</a>
 				</Link>
-				<button
-					className=' inline-flex p-3 hover:bg-blue-600 rounded lg:hidden text-white ml-auto hover:text-white outline-none'
-					onClick={handleClick}
-				>
-					<svg
-						className='w-6 h-6'
-						fill='none'
-						stroke='currentColor'
-						viewBox='0 0 24 24'
-						xmlns='http://www.w3.org/2000/svg'
+				<motion.div className="ml-auto" whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} >
+					<button
+						className=' inline-flex p-3 hover:bg-blue-600 rounded lg:hidden text-white outline-none'
+						onClick={handleClick}
 					>
-						<NavbarHamburger isOpen={active}/>
-					</svg>
-				</button>
+						<svg
+							className='w-6 h-6'
+							fill='none'
+							stroke='currentColor'
+							viewBox='0 0 24 24'
+							xmlns='http://www.w3.org/2000/svg'
+						>
+							<NavbarHamburger isOpen={active}/>
+						</svg>
+					</button>
+				</motion.div>
 				{/*Note that in this div we will use a ternary operator to decide whether or not to display the content of the div  */}
-				<div
-					className={`${
-						active ? '' : 'hidden'
-					}   w-full lg:inline-flex lg:flex-grow lg:w-auto`}
-				>
+				<div className={`${active ? '' : 'hidden'}   w-full lg:inline-flex lg:flex-grow lg:w-auto`}>
 					<div className='lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start  flex flex-col lg:h-auto'>
-                        <Link href='/'>
-							<a className={`lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-blue-600 hover:text-white ${router.pathname == "/" ? "text-blue-600" : "text-brand-darkblue"}`}>
-								Home
-							</a>
-						</Link>
-						<Link href='/daycamp'>
-							<a 
-								className={`lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-blue-600 hover:text-white ${router.pathname == "/daycamp" ? "text-blue-600" : "text-brand-darkblue"}`}>
-								Day Camp
-							</a>
-						</Link>
-						<Link href='https://lanternfest.ca/'>
-							<a target='_blank' className={`lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-blue-600 hover:text-white ${router.pathname == "/lfest" ? "text-blue-600" : "text-brand-darkblue"}`}>
-								Lantern Festival
-							</a>
-						</Link>
-						<Link href='/volunteer'>
-							<a className={`lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-blue-600 hover:text-white ${router.pathname == "/volunteer" ? "text-blue-600" : "text-brand-darkblue"}`}>
-								Volunteer
-							</a>
-						</Link>
-						<Link href='/about'>
-							<a className={`lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-blue-600 hover:text-white ${router.pathname == "/about" ? "text-blue-600" : "text-brand-darkblue"}`}>
-								About
-							</a>
-						</Link>
-						<Link href='/contact'>
-							<a className={`lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-blue-600 hover:text-white ${router.pathname == "/contact" ? "text-blue-600" : "text-brand-darkblue"}`}>
-								Contact us
-							</a>
-						</Link>
+						<motion.div className="py-2"whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} >
+							<Link href='/'>
+								<a className={`lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-blue-600 hover:text-white ${router.pathname == "/" ? "text-blue-600" : "text-brand-darkblue"}`}>
+									Home
+								</a>
+							</Link>
+						</motion.div>
+						<motion.div className="py-2"whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} >
+							<Link href='/daycamp'>
+								<a 
+									className={`lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-blue-600 hover:text-white ${router.pathname == "/daycamp" ? "text-blue-600" : "text-brand-darkblue"}`}>
+									Day Camp
+								</a>
+							</Link>
+						</motion.div>
+						<motion.div className="py-2"whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} >
+							<Link href='https://lanternfest.ca/'>
+								<a target='_blank' className={`lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-blue-600 hover:text-white ${router.pathname == "/lfest" ? "text-blue-600" : "text-brand-darkblue"}`}>
+									Lantern Festival
+								</a>
+							</Link>
+						</motion.div>
+						<motion.div className="py-2"whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} >
+							<Link href='/volunteer'>
+								<a className={`lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-blue-600 hover:text-white ${router.pathname == "/volunteer" ? "text-blue-600" : "text-brand-darkblue"}`}>
+									Volunteer
+								</a>
+							</Link>
+						</motion.div>
+						<motion.div className="py-2"whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} >
+							<Link href='/about'>
+								<a className={`lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-blue-600 hover:text-white ${router.pathname == "/about" ? "text-blue-600" : "text-brand-darkblue"}`}>
+									About
+								</a>
+							</Link>
+						</motion.div>
+						<motion.div className="py-2"whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} >
+							<Link href='/contact'>
+								<a className={`lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-blue-600 hover:text-white ${router.pathname == "/contact" ? "text-blue-600" : "text-brand-darkblue"}`}>
+									Contact us
+								</a>
+							</Link>
+						</motion.div>
 					</div>
 				</div>
 			</nav>
