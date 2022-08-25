@@ -14,7 +14,7 @@ export const Navbar = () => {
 
 	return (
 		<>
-			<nav className='flex items-center sticky top-0 z-50 flex-wrap bg-blue-400 p-3 '>
+			<nav className='flex items-center sticky top-0 z-50 flex-wrap bg-blue-400/75 p-3 '>
 				<Link href='/'>
 					<a className='inline-flex items-center p-2 mr-4 '>
 					<img src="/FOVP_UPSCALE.png" width='70' height='70' />
