@@ -6,5 +6,5 @@ RUN npm install && npm run build
 FROM nginx:alpine
 WORKDIR /usr/share/nginx/html
 RUN rm -rf ./*
-COPY --from=builder /app/out .
+COPY --from=builder /out .
 ENTRYPOINT ["nginx", "-g", "daemon off;"]
