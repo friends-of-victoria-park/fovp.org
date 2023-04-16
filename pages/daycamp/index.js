@@ -22,9 +22,9 @@ export default function Daycamp() {
 					<div className="mt-5 pb-4 text-center text-1xl text-white drop-shadow-lg block p-6 max-w-4xl rounded-lg border shadow-md bg-gray-800 border-gray-700"> 
 						The FOVP Summer Day Camp is an 8 week program based in Victoria Park, providing children ages 5-12 an opportunity to participate in fun summer activities, including: swimming, field trips, arts and crafts, games, and a number of other recreational and learning experiences.
 
-						Registration for the FOVP Summer Day Camp occurs in one-week blocks; participants can register for the entire summer (8 weeks), or any number or combination of weeks, depending on availability. If you only want to register for one, two or four weeks, just let us know!
+						<p>Registration for the FOVP Summer Day Camp occurs in one-week blocks; participants can register for the entire summer (8 weeks), or any number or combination of weeks, depending on availability. If you only want to register for one, two or four weeks, just let us know!</p>
 						
-						The FOVP Summer Day Camp is fully supervised, with an excellent ratio of camp staff to participants!
+						<p>The FOVP Summer Day Camp is fully supervised, with an excellent ratio of camp staff to participants!</p>
 					</div>
 				</div>
 			</div>
