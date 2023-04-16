@@ -43,7 +43,7 @@ export default function Daycamp() {
 								<li><b>Fill out the form:</b> The form is a fillable pdf, so you can fill it out electronically and then print it out. Alternatively, print it out and fill it out by hand.</li>
 								<li><b>Come to the park on your applicable registration date:</b></li>
 								<li>‎</li>
-								<li>For parents of returning kids we thank you in advance for registrating your kids for another fun filled summer as we look forward to another rewarding year.</li>
+								<li>Hello For parents of returning kids we thank you in advance for registrating your kids for another fun filled summer as we look forward to another rewarding year.</li>
 								<li>‎</li>
 								{/* <li><b><u>New Registrants:</u></b> Please be advised that the FOVP Day Camp is accepting new applicants on a zone-based priority until TBD. Parents and Guardians of children are asked to email their registration forms no earlier than TBD and no later then TBD to fovpdaycamp@gmail.com Also be advised that there is a very limited number of spots available. Parents and Guardians will be notified on May 29 as to the status of their application.</li>
 								<li>‎</li> */}
