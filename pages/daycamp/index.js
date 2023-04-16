@@ -29,25 +29,25 @@ export default function Daycamp() {
 					<InfoCard subject="The Program" 
 						body={
 							<ul className="font-normal text-gray-700"> 
-								<li><b>When:</b> July 2021 to August 2021</li>
+								<li><b>When:</b> July 3rd, 2023 to August 25th, 2023</li>
 								<li><b>Time:</b> 9:00am to 4:00pm; Monday to Friday</li>
-								<li><b>Registration Fees:</b> TBD for a single child. TBD for 2. Additional children from the same family please add an extra TBD per child. (please note fees are reviewed every two years, the next scheduled review is Summer 2020)</li>
+								<li><b>Registration Fees:</b> $75 for a single child per week.</li>
 								<li><b>Ages:</b> 5-12</li>
 							</ul>
 						} 
 					/>
 					<InfoCard subject="How to Register" 
 						body={
-							<ul className="font-normal text-gray-700 drop-shadow-lg"> 
+							<ul className="font-normal text-gray-700"> 
 								<li><b>Download</b> the FOVP Summer Program Registration Form and the Participant Agreement Form</li>
 								<li><b>Fill out the form:</b> The form is a fillable pdf, so you can fill it out electronically and then print it out. Alternatively, print it out and fill it out by hand.</li>
 								<li><b>Come to the park on your applicable registration date:</b></li>
 								<li>‎</li>
 								<li>For parents of returning kids we thank you in advance for registrating your kids for another fun filled summer as we look forward to another rewarding year.</li>
 								<li>‎</li>
-								<li><b><u>New Registrants:</u></b> Please be advised that the FOVP Day Camp is accepting new applicants on a zone-based priority until TBD. Parents and Guardians of children are asked to email their registration forms no earlier than TBD and no later then TBD to fovpdaycamp@gmail.com Also be advised that there is a very limited number of spots available. Parents and Guardians will be notified on May 29 as to the status of their application.</li>
-								<li>‎</li>
-								<li><b><u>Program Capacity:</u></b> Please be advised that the maximum program capacity for 2019 is 75 children. However the FOVP reserves the right to lower the number of registrations based on staffing numbers.</li>
+								{/* <li><b><u>New Registrants:</u></b> Please be advised that the FOVP Day Camp is accepting new applicants on a zone-based priority until TBD. Parents and Guardians of children are asked to email their registration forms no earlier than TBD and no later then TBD to fovpdaycamp@gmail.com Also be advised that there is a very limited number of spots available. Parents and Guardians will be notified on May 29 as to the status of their application.</li>
+								<li>‎</li> */}
+								<li><b><u>Program Capacity:</u></b> Please be advised that the maximum program capacity for 2023 is 60 children. However the FOVP reserves the right to lower the number of registrations based on staffing numbers.</li>
 								<li>‎</li>
 								<li>Also be advised that zonal priority will be in affect.</li>
 							</ul>
@@ -55,7 +55,7 @@ export default function Daycamp() {
 					/>
 					<InfoCard subject="Zones" 
 						body={
-							<ul className="font-normal text-gray-700 drop-shadow-lg"> 
+							<ul className="font-normal text-gray-700"> 
 								<li><b>Zone 1</b> is the immediate area of Victoria Park determined by a 2 kilometer radius of Angel Place Victoria Park</li>
 								<li><b>Zone 2</b> is the immediate area of Victoria Park determined by a 2.0001 to 4 kilometer radius of Angel Place Victoria Park</li>
 								<li><b>Zone 3</b> is the immediate area of Victoria Park determined by a 4.0001 to 8 kilometer radius of Angel Place Victoria Park</li>
