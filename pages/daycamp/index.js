@@ -47,7 +47,7 @@ export default function Daycamp() {
 								<li>‎</li>
 								<li><b>Fill out the form:</b> The form is a fillable pdf, so you can fill it out electronically and then print it out. Alternatively, print it out and fill it out by hand.</li>
 								<li>‎</li>
-								<li><b>Bring your completed registration form to Victoria Park on the scheduled Day of Registration (see below). <b>PLEASE NOTE</b> that payment for camp registration is required IN FULL on the day of registration. The Friends of Victoria Park accepts payment in CASH, CHEQUE (post-dated cheques also permitted), DEBIT and CREDIT CARD</b></li>
+								<li><b>Bring your completed registration form to Victoria Park on the scheduled Day of Registration (see below). <b>PLEASE NOTE</b> that payment for camp registration is required IN FULL on the day of registration. The Friends of Victoria Park accepts payment in CASH, CHEQUE (post-dated cheques also permitted), DEBIT and CREDIT CARD.</b></li>
 								<li>‎</li>
 								<li>Registration for the 2023 FOVP Summer Day Camp is open to both returning participants and new participants. PLEASE NOTE that returning participants are given registration priority; new participants are able to register for remaining available weekly spots on a first-come, first-served basis.</li>
 								<li>‎</li>
