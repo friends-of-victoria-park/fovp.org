@@ -43,7 +43,7 @@ export default function Daycamp() {
 					<InfoCard subject="How to Register" 
 						body={
 							<ul className="font-normal text-gray-700"> 
-								<li><b><a href="https://fovp.org/camp_registration.pdf">DOWNLOAD<a></b> the FOVP Summer Program Registration Form</li>
+								<li><a href="https://fovp.org/camp_registration.pdf"><b><u>DOWNLOAD</u></b></a> the FOVP Summer Program Registration Form</li>
 								<li>‎</li>
 								<li><b>Fill out the form:</b> The form is a fillable pdf, so you can fill it out electronically and then print it out. Alternatively, print it out and fill it out by hand.</li>
 								<li>‎</li>
