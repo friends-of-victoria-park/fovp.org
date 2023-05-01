@@ -35,7 +35,7 @@ export default function Daycamp() {
 							<ul className="font-normal text-gray-700"> 
 								<li><b>When:</b> July 3rd, 2023 to August 25th, 2023 (8 weeks)</li>
 								<li><b>Time:</b> 9:00am to 4:30pm, Monday to Friday</li>
-								<li><b>Registration Fees:</b> $75 per child, per week</li>
+								<li><b>Registration Fees:</b> $90 per child, per week</li>
 								<li><b>Ages:</b> 5-12 (participants must be turning 5 prior to December 31) </li>
 							</ul>
 						} 
