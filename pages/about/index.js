@@ -23,9 +23,7 @@ export default function About() {
 						body={
 							<ul className="font-normal text-gray-700"> 
 								<PeopleCard name='Mike Evoy' position='Chair'/>
-								<PeopleCard name='Jeremy Earle' position='Lantern Festival Lead'/>
-								<PeopleCard name='Ramona Cole' position='Director'/>
-								<PeopleCard name='Lori Lynn Earle' position='Director'/>
+								<PeopleCard name='Jeremy Earle' position='Co-Chair'/>
 							</ul>
 						} 
 					/>
